@@ -91,8 +91,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Platforms", name: "platforms", widget: "object", fields: [
-            - {label: "XBOX ONE", name: "xbox_one", widget: "boolean"}
-            - {label: "XBOX 360", name: "xbox_360", widget: "boolean"}
-            - {label: "Playstation 4", name: "playstation_4", widget: "boolean"}
-            - {label: "Nintendo Switch", name: "nintendo_switch", widget: "boolean"}
-            - {label: "PC", name: "pc", widget: "boolean"}]}
+            {label: "XBOX ONE", name: "xbox_one", widget: "boolean"},
+            {label: "XBOX 360", name: "xbox_360", widget: "boolean"},
+            {label: "Playstation 4", name: "playstation_4", widget: "boolean"},
+            {label: "Nintendo Switch", name: "nintendo_switch", widget: "boolean"},
+            {label: "PC", name: "pc", widget: "boolean"}]}
